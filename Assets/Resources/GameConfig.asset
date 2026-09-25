@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f927c203b8d60e4ba015e9594f730bc, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  levels:
+  - name: Nivel 1
+    fishFrames:
+    - {fileID: 21300000, guid: 77f2a1a9d4a569f4fb9b164e9e577051, type: 3}
+    - {fileID: 21300000, guid: 5f63089ce9ac9d7448c9e94f47db5c76, type: 3}
+    - {fileID: 21300000, guid: d4a9327929d5f374c9d6fec1a15ce0c4, type: 3}
+    introLine1: "\xA1Hola amigo! Hoy vamos a jugar.\nPrep\xE1rate para una aventura
+      de pesca."
+    introLine2: 'El juego se inicia.
+
+      Pero primero debes conocer las siguientes
+      reglas:'
+    outroLine: '{pregunta}'
+    showRules: 1
+    questions:
+    - instruction: "Busca el cardinal del n\xFAmero mostrado"
+      questionSprite: {fileID: 21300000, guid: bcdbcc66bf97f274d9616ea4610ae8e3, type: 3}
+      optionSprites:
+      - {fileID: 21300000, guid: 2377f88b3616dcd4484bc463a5bd64b4, type: 3}
+      - {fileID: 21300000, guid: c87751bd17a23154ebda0c82b803793d, type: 3}
+      - {fileID: 21300000, guid: 8ab07acf848f89c44a3ef1d07d63476e, type: 3}
+      optionNames:
+      - Pez payaso
+      - Pez globo
+      - Pez espada
+      correctIndex: 0
+    - instruction: "Busca el cardinal del n\xFAmero mostrado"
+      questionSprite: {fileID: 21300000, guid: 3820f76d3719cc6409a8942f38ee48fb, type: 3}
+      optionSprites:
+      - {fileID: 21300000, guid: c87751bd17a23154ebda0c82b803793d, type: 3}
+      - {fileID: 21300000, guid: 2377f88b3616dcd4484bc463a5bd64b4, type: 3}
+      - {fileID: 21300000, guid: 8ab07acf848f89c44a3ef1d07d63476e, type: 3}
+      optionNames:
+      - Pez globo
+      - Pez payaso
+      - Pez espada
+      correctIndex: 0
+    - instruction: "Busca el cardinal del n\xFAmero mostrado"
+      questionSprite: {fileID: 21300000, guid: 8d3b922dc5067b34bb46c6597bbcda22, type: 3}
+      optionSprites:
+      - {fileID: 21300000, guid: 8ab07acf848f89c44a3ef1d07d63476e, type: 3}
+      - {fileID: 21300000, guid: c87751bd17a23154ebda0c82b803793d, type: 3}
+      - {fileID: 21300000, guid: 2377f88b3616dcd4484bc463a5bd64b4, type: 3}
+      optionNames:
+      - Pez espada
+      - Pez globo
+      - Pez payaso
+      correctIndex: 0
+  - name: Nivel 2
+    fishFrames:
+    - {fileID: 21300000, guid: a6a01ff3cd52a7743a16da5cda9d5ab2, type: 3}
+    - {fileID: 21300000, guid: 3ad6028379f4fde4fbd9a6aedda2893a, type: 3}
+    - {fileID: 21300000, guid: c1f948694c583a14185a7215ff6d63ca, type: 3}
+    introLine1: "El desaf\xEDo aumenta, debes concentrarte"
+    introLine2: '{pregunta}'
+    outroLine: "\xA1Vamos!"
+    showRules: 0
+    questions:
+    - instruction: "Busca su decodificaci\xF3n"
+      questionSprite: {fileID: 21300000, guid: b2179b7791e50d542ad2170f3498525a, type: 3}
+      optionSprites:
+      - {fileID: 21300000, guid: 86cfba8d974657c4ebf9919f1850aaa3, type: 3}
+      - {fileID: 21300000, guid: 8dd6ff71e17cbd245b8466bc3d0bad1f, type: 3}
+      - {fileID: 21300000, guid: f51c3a85b910b0e4bbdf9f54612fe53c, type: 3}
+      optionNames:
+      - Pez payaso
+      - Pez globo
+      - Pez espada
+      correctIndex: 0
+    - instruction: "Busca su decodificaci\xF3n"
+      questionSprite: {fileID: 21300000, guid: 61aa1b9c0b95dd34dbb29293367f9a3a, type: 3}
+      optionSprites:
+      - {fileID: 21300000, guid: 8dd6ff71e17cbd245b8466bc3d0bad1f, type: 3}
+      - {fileID: 21300000, guid: cb8896a751e5e0944b2457484909b4f9, type: 3}
+      - {fileID: 21300000, guid: 86cfba8d974657c4ebf9919f1850aaa3, type: 3}
+      optionNames:
+      - Pez espada
+      - Pez betta
+      - Pez globo
+      correctIndex: 0
+    - instruction: "Busca su decodificaci\xF3n"
+      questionSprite: {fileID: 21300000, guid: 91c0dc37ad9dbd743ad3a85605ad22ea, type: 3}
+      optionSprites:
+      - {fileID: 21300000, guid: f51c3a85b910b0e4bbdf9f54612fe53c, type: 3}
+      - {fileID: 21300000, guid: cb8896a751e5e0944b2457484909b4f9, type: 3}
+      - {fileID: 21300000, guid: bd9aaa426c2827847aeb23c3c3de93c8, type: 3}
+      optionNames:
+      - Pez espada
+      - Pez betta
+      - Pez tilapia
+      correctIndex: 0
+  - name: Nivel 3
+    fishFrames:
+    - {fileID: 21300000, guid: b1f8f808bf38cbf46821d6303030b81c, type: 3}
+    - {fileID: 21300000, guid: 12d9e7a7003449f4db1c42bb85fbfc93, type: 3}
+    - {fileID: 21300000, guid: e78e5231ebafb3b4ca887c779cd11715, type: 3}
+    introLine1: "Este es el desaf\xEDo final. Usa todo lo aprendido."
+    introLine2: '{pregunta}'
+    outroLine: "Elige sabiamente, \xA1T\xFA puedes!"
+    showRules: 0
+    questions:
+    - instruction: "\xBFCu\xE1ntas decenas hay en el n\xFAmero mostrado?"
+      questionSprite: {fileID: 21300000, guid: b90c689165541af43983dbb42e19bb83, type: 3}
+      optionSprites:
+      - {fileID: 21300000, guid: 0f6926c66f5ceff4cac14a7041eb2bc6, type: 3}
+      - {fileID: 21300000, guid: 6324e0f4891bf3044b747b4e0c481203, type: 3}
+      - {fileID: 21300000, guid: 58e75719fc0c53243af2fb1157539ced, type: 3}
+      optionNames:
+      - Pez payaso
+      - Pez globo
+      - Pez espada
+      correctIndex: 0
+    - instruction: "\xBFCu\xE1ntas decenas hay en el n\xFAmero mostrado?"
+      questionSprite: {fileID: 21300000, guid: 4a65c47e492dc8a4bae83dd6f18b9612, type: 3}
+      optionSprites:
+      - {fileID: 21300000, guid: 1fef622ca2fca1b47ac3f058cbe39afe, type: 3}
+      - {fileID: 21300000, guid: fa11f5e31b2358d478e3b272021394a2, type: 3}
+      - {fileID: 21300000, guid: dfd3ce7fc23cb594b8b72e580c6bd970, type: 3}
+      optionNames:
+      - Pez betta
+      - Pez tilapia
+      - Pez aguja
+      correctIndex: 0
+    - instruction: "\xBFCu\xE1ntas decenas hay en el n\xFAmero mostrado?"
+      questionSprite: {fileID: 21300000, guid: d26941b3cbb527641bd3c94657cce47f, type: 3}
+      optionSprites:
+      - {fileID: 21300000, guid: 38d74db136a7b8a409720298b698aefd, type: 3}
+      - {fileID: 21300000, guid: ad339c4a52a652543a060fa051b2d6a9, type: 3}
+      - {fileID: 21300000, guid: c19ca9c9d7fc1b945886835fc2ba83e2, type: 3}
+      optionNames:
+      - Pez corvina
+      - Pez perico
+      - Pez toyo
+      correctIndex: 0
+  music: {fileID: 8300000, guid: 1a535bc8012b9004ba1d875ccde7ffaa, type: 3}
+  musicVolume: 0.6
+  rulesText: "REGLAS\n\n- Tendr\xE1s tres (3) alternativas como respuesta\n- Elige
+    solamente una de ellas\n- Si la respuesta es adecuada, ganar\xE1s 3 puntos\n-
+    Si la respuesta no es adecuada, tendr\xE1s otra oportunidad, pero ya no ganar\xE1s
+    3 puntos\n- Ganar\xE1s 1 punto en el segundo intento si aciertas\n- Ya no existir\xE1
+    un tercer intento\n- Deber\xE1s iniciar nuevamente el juego"
