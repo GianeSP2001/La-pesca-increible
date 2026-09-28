@@ -2,7 +2,7 @@
 
 Juego serio educativo dirigido a niños con TDAH, desarrollado como parte de mi proyecto de tesis y publicado como artículo en la revista **EIRCON** (actualmente en revisión). Esta es la migración completa del juego original —creado en **GameMaker**— al motor **Unity**, hecha para reforzar mis habilidades con este motor de cara al mercado laboral.
 
-🔗 **Jugar en el navegador:** [enlace a itch.io]
+🔗 **Jugar en el navegador:** (https://gp-stars01-studio.itch.io/la-pesca-increble)
 
 ## Sobre el juego
 
