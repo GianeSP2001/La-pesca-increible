@@ -1,6 +1,7 @@
 # La Pesca Increíble 🎣
 
-Juego serio educativo dirigido a niños con TDAH, desarrollado como parte de mi proyecto de tesis y publicado como artículo en la revista **EIRCON** (actualmente en revisión). Esta es la migración completa del juego original —creado en **GameMaker**— al motor **Unity**, hecha para reforzar mis habilidades con este motor de cara al mercado laboral.
+Juego serio educativo que entrena la atención en niños con TDAH mediante una mecánica simple y repetible: sesiones cortas y retroalimentación inmediata.
+Nació como mi proyecto de tesis (artículo en la revista EIRCON, actualmente en revisión); este repositorio es la reescritura completa del juego original de GameMaker a **Unity/C#**, con una arquitectura orientada a componentes.
 
 🔗 **Jugar en el navegador:** (https://gp-stars01-studio.itch.io/la-pesca-increble)
 
@@ -42,6 +43,7 @@ El niño avanza por 3 niveles pescando peces que contienen preguntas y luego pes
 
 Este juego nació como parte de mi tesis de titulación y fue documentado en un artículo enviado a la revista EIRCON. La versión original fue desarrollada en GameMaker; este repositorio contiene la reescritura completa en Unity/C#, incluyendo una nueva arquitectura de código orientada a componentes.
 
-## Autor
+## Autora
 
-**Gianella Sandoval Palomino** — https://www.linkedin.com/in/gianella-sandoval-palomino-3965a61b5/ · gianesandoval2001@gmail.com
+**Gianella Sandoval Palomino** · Ingeniera de Software | Desarrolladora de videojuegos
+[LinkedIn](https://www.linkedin.com/in/gianella-sandoval-palomino-3965a61b5/) · [itch.io](https://gp-stars01-studio.itch.io)
